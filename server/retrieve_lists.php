@@ -3,8 +3,8 @@
 require_once "classes/Lists.php";
 
 // get the information passed from the app via the POST method
-//$list_data = $_GET['google_id'];
-$list_data = '113869913251028463109';
+$list_data = $_GET['google_id'];
+//$list_data = '113869913251028463109';
 
 $Lists = new \classes\Lists();
 
