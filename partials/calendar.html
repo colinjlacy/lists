@@ -1,0 +1,63 @@
+<div class="row">
+	<div class="col-sm-4">
+		<div><h2>Cals List</h2>
+			<ul>
+				<li ng-repeat="c in cals.calsList">
+					<label>
+						{{c.summary}}
+						<input type="checkbox" ng-click="toggleActive(c)" ng-checked="shouldBeChecked(c)"/>
+					</label>
+				</li>
+			</ul>
+			<button class="btn btn-primary" ng-click="reviseEvents()">Update</button>
+			<h2>Active Cals</h2>
+			<ul>
+				<li ng-repeat="a in cals.active">
+					{{a}}
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="col-sm-4">
+		<div>
+			<h2>Events</h2>
+			<ul>
+				<li ng-repeat="e in data.events | orderBy: 'wcStart'">
+					<span ng-click="getEvent(e)">{{e.summary}}, <em>{{e.wcStart}}</em></span>
+				</li>
+			</ul>
+		</div>
+		<div class="well" ng-show="data.activeEvent">
+			<h3 ng-bind="data.activeEvent.summary"></h3>
+			<p class="lead" ng-bind="data.activeEvent.description"></p>
+			<p ng-bind="data.activeEvent.location"></p>
+		</div>
+	</div>
+
+	<div class="col-sm-4">
+		<h2>Add an Event</h2>
+
+		<form novalidate class="form-group">
+			<label class="control-label">Event Title
+				<input type="text" ng-model="data.addEvent.title" class="form-control"/>
+			</label>
+			<!--TODO: change this to jQ Date Picker-->
+			<label class="control-label">Start Date
+				<input type="text" ng-model="data.addEvent.start" class="form-control" value="2014-06-30T12:21:00-06:09"/>
+			</label>
+			<label class="control-label">End Date
+				<input type="text" ng-model="data.addEvent.end" class="form-control" />
+			</label>
+			<label class="control-label">Description
+				<input type="text" ng-model="data.addEvent.description" class="form-control" />
+			</label>
+			<label class="control-label">Calendar
+				<select class="form-control" ng-model="data.addEvent.calID">
+					<option ng-repeat="c in data.cals.calsList" value="{{c.id}}">{{c.summary}}</option>
+				</select>
+			</label>
+			<button class="btn btn-success" ng-click="addEvent()">Submit!</button>
+		</form>
+	</div>
+</div>

@@ -1,0 +1,33 @@
+<div class="col-sm-8">
+	<button class="btn btn-default" ng-click="showList()">Back to List</button>
+	<div class="well" ng-show="data.showEvent">
+		<h3>{{data.showEvent.title}}</h3>
+		<p class="lead">{{data.showEvent.month}} {{data.showEvent.day}}, {{data.showEvent.year}}</p>
+		<strong>{{data.showEvent.venue_name}}</strong>
+		<hr/>
+		<p>{{data.showEvent.description}}</p>
+		<button class="btn btn-primary" ng-hide="eventToBeAdded" ng-click="eventAdd()">Add to Calendar</button>
+		<div ng-show="eventToBeAdded">
+			<label class="control-label">Select a Calendar
+				<select ng-model="eventToBeAdded.calendar" ng-options="cal.summary for cal in cals.calsList" class="form-control"></select>
+			</label>
+			<label class="control-label">Want to invite some friends?
+				<div class="input-group">
+					<input type="text" ng-model="attendee" typeahead='contact as contact.title + ", " + contact.email for contact in data.contacts | filter: $viewValue | limitTo:8' class="form-control">
+					    <span class="input-group-btn">
+					        <button class="btn btn-default" type="button" ng-click="addToAttendees()">Go!</button>
+					    </span>
+				</div><!-- /input-group -->
+			</label>
+
+			<h4 ng-show="attendees">Attendees</h4>
+			<ul>
+				<li ng-repeat="attendee in attendees">
+					{{attendee.title}}
+				</li>
+			</ul>
+
+			<button class="btn btn-success" ng-click="postToCal(eventToBeAdded)">Add it!</button>
+		</div>
+	</div>
+</div>

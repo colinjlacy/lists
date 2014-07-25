@@ -1,0 +1,14 @@
+<div class="row">
+	<div class="col-sm-12">
+		<h2>Movie Theaters Near {{movieZip}}</h2>
+		<div class="row" ng-repeat="theater in theaterList.theater track by $index">
+			<div class="col-sm-12">
+				<h3>{{theater.title}}</h3>
+				<p><b>{{theater.address}}, {{theater.city}} {{theater.state}}, {{theater.postalCode}}</b></p>
+				<p><em>{{theater.phone}}</em></p>
+				<button class="btn btn-primary btn-small" ng-click="getTheaterShowTimes(theater.id)">View Movies and Times</button>
+				<hr/>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,36 @@
+<div class="container" ng-controller="movieCtrl">
+	<div class="row">
+		<div class="col-sm-12">
+			<h2>Movies</h2>
+			<div class="well">
+				<h3>
+					Choose a date and enter your zip code
+				</h3>
+				<div class="row">
+					<div class="col-sm-6">
+						<label class="control-label">Pick a Date
+							<div class="input-group">
+								<input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="movieDate" is-open="opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+					            <span class="input-group-btn">
+						            <button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+					            </span>
+							</div>
+						</label>
+					</div>
+					<div class="col-sm-6">
+						<label class="control-label" >Enter your zip
+							<input type="text" class="form-control" ng-model="movieZip"/>
+						</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<button class="btn btn-success" ng-click="findMovies()">Find Movies!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-include="movieTemplate"></div>
+</div>

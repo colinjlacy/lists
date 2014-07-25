@@ -1,0 +1,111 @@
+<section ng-controller="listCtrl">
+	<div ng-hide="hasLists">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-sm-push-2">
+					<div class="alert alert-warning">
+						<h3 class="no-top">Look at that!</h3>
+						<p id="noLists" class="lead">
+							It looks lke you don't have any lists! Click the button below to do something about that and add your first list!
+						</p>
+						<a class="btn btn-warning" href="#/lists/add">Add New List</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-show="hasLists">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-sm-push-2">
+					<h2>
+						Lists
+					</h2>
+				</div>
+				<div class="col-sm-2 col-sm-push-2 text-right">
+					<a class="btn btn-primary" href="#/lists/add">Add New List</a>
+				</div>
+			</div>
+		</div>
+		<!--<div class="container">-->
+			<!--<div class="row">-->
+				<!--<div class="col-sm-8 col-sm-push-2">-->
+					<!--<ul class="nav nav-tabs">-->
+						<!--<li class="active">-->
+							<!--<a href="#owned-lists" data-toggle="tab">Your Lists</a>-->
+						<!--</li>-->
+						<!--<li class="active">-->
+							<!--<a href="#shared-lists" data-toggle="tab">Shared With You</a>-->
+						<!--</li>-->
+					<!--</ul>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-sm-push-2">
+					<h3>Your Lists</h3>
+				</div>
+			</div>
+			<div class="row hidden-xs">
+				<div class="col-sm-8 col-sm-push-2">
+					<hr>
+					<div class="row">
+						<div class="col-sm-9">
+							<strong class="lead no-bottom">Title</strong>
+						</div>
+						<div class="col-sm-3 text-right">
+							<strong class="lead no-bottom">Options</strong>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="owned-lists" class="row" ng-repeat="list in lists.owned track by $index">
+				<div class="col-sm-8 col-sm-push-2">
+					<hr>
+					<div class="row">
+						<div class="col-sm-9">
+							<p>{{list.title}}</p>
+						</div>
+						<div class="col-sm-3 text-right">
+							<button class="btn btn-default fa fa-eye" ng-click="viewList(list)"></button>
+							<button class="btn btn-default fa fa-trash-o" ng-click="deleteList(list.id, $index)"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-8 col-sm-push-2">
+					<h3>Shared with You</h3>
+				</div>
+			</div>
+			<div class="row hidden-xs">
+				<div class="col-sm-8 col-sm-push-2">
+					<hr>
+					<div class="row">
+						<div class="col-sm-9">
+							<strong class="lead no-bottom">Title</strong>
+						</div>
+						<div class="col-sm-3 text-right">
+							<strong class="lead no-bottom">Options</strong>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="shared-lists" class="row" ng-repeat="list in lists.shared track by $index">
+				<div class="col-sm-8 col-sm-push-2">
+					<hr>
+					<div class="row">
+						<div class="col-sm-9">
+							<p>{{list.title}}</p>
+						</div>
+						<div class="col-sm-3 text-right">
+							<button class="btn btn-default fa fa-eye" ng-click="viewList(list)"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

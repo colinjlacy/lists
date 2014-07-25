@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html ng-app="boomCal">
+<head>
+
+	<title>Harps & Boom</title>
+
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<style>
+		.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+	</style>
+
+	<script src="https://apis.google.com/js/client.js?onload=OnLoadCallback"></script>
+	<!--TODO: Re-develop everythign using the Google JS client library-->
+	<script src="js/app/angular.js"></script>
+	<script src="js/app/app.js"></script>
+	<script src="js/utils/ui-bootstrap-custom-0.10.0.js"></script>
+	<script src="js/utils/ui-bootstrap-custom-tpls-0.10.0.js"></script>
+	<script src="js/calendar/google-plus-signin.js"></script>
+	<script src="js/calendar/services.js"></script>
+	<script src="js/eventful/eventful-services.js"></script>
+	<script src="js/calendar/boomControl.js"></script>
+	<script src="js/eventful/eventControl.js"></script>
+	<script src="js/lists/viewCtrl.js"></script>
+	<script src="js/lists/listCtrl.js"></script>
+	<!--<script src="js/movies/movieCtrl.js"></script>-->
+	<!--<script src="js/datePicker/dateControl.js"></script>-->
+	<script src="bower_components/angular-route/angular-route.js"></script>
+	<script src="bower_components/angular-resource/angular-resource.js"></script>
+	<script src="bower_components/angular-sanitize/ngSanitize.js"></script>
+
+</head>
+<body class="" ng-controller="boomControl">
+
+<header class="navbar navbar-inverse" role="navigation">
+
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul id="menu-navigation-menu" class="nav navbar-nav navbar-right">
+				<li><a href="/events/#">Calendar</a></li>
+				<li><a href="/events/#/events">Events</a></li>
+				<li><a href="/events/#/lists">Lists</a></li>
+				<!--<li><a href="/events/#/movies">Movies</a></li>-->
+			</ul>
+		</div><!--/.nav-collapse -->
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="well">
+					<div class="row">
+						<div class="col-sm-3">
+							<aside class="input-group">
+								<input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="startDate" is-open="opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+					            <span class="input-group-btn">
+						            <button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+					            </span>
+							</aside>
+						</div>
+						<div class="col-sm-3">
+							<aside class="input-group">
+								<input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="endDate" is-open="opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
+					            <span class="input-group-btn">
+						            <button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+					            </span>
+							</aside>
+						</div>
+						<div class="col-sm-6">
+							<button class="pull-right btn btn-primary" ng-click="reviseDates()">Revise Dates</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<button class="pull-right btn btn-default" ng-click="userLogout()">Log Out</button>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<div ng-show="data.user == null">
+				<google-plus-signin clientid="185024779579-go9t2i4b44oaffv6as49ijotubekkcql.apps.googleusercontent.com"></google-plus-signin>
+			</div>
+		</div>
+	</div>
+	<ng-view></ng-view>
+</div>
+
+
+</body>
+</html>
