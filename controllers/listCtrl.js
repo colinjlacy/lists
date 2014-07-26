@@ -50,6 +50,38 @@ angular.module("boomLists")
 
 					});
 
+				// now use the user data to get their contacts
+				$http.get('server/contacts.php?token=' + $scope.token +'&email=' + email).success(function(contacts) {
+
+					// create an array in which I'll store the values I need from the returned contacts
+					$scope.contacts = [];
+
+					// simplify this convoluted object into an easy-to-write variable
+					var rawContactsArray = contacts.feed.entry;
+
+//						console.log(rawContactsArray);
+
+					// loop through the contacts...
+					for (var i = 0; i < rawContactsArray.length; i++) {
+
+						// if there is an email address set (Droid creates Google contacts without email addresses)
+						if (rawContactsArray[i].gd$email && rawContactsArray[i].gd$email[0].address) {
+							var contact = { // create a simple object on the local scope
+
+								// set the email address to the email property
+								email: rawContactsArray[i].gd$email[0].address,
+
+								// if there is a title for this person, set that to the title property, otherwise use their email address
+								// TODO: figure out why I can't use this.email in the line below to define the email fallback for the title property
+								title: rawContactsArray[i].title.$t != "" ? rawContactsArray[i].title.$t : rawContactsArray[i].gd$email[0].address
+							};
+
+							// push the new contact into the session.contacts array
+							$scope.contacts.push(contact);
+						}
+					}
+				});
+
 			});
 
 		});

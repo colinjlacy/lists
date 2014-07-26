@@ -258,6 +258,7 @@ angular.module("boomLists")
 				.success(function(data) {
 					console.log(data);
 					$scope.emailForm = false;
+					$scope.listRecipients = null;
 					$rootScope.activeList.alert = {
 						type: "alert-success",
 						message: "This list has been emailed!  Nicely done!"

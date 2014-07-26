@@ -1,6 +1,7 @@
 angular.module('boomLists', [
 		'directive.g+signin',
-		'ngRoute'
+		'ngRoute',
+		'ui.bootstrap'
 	])
 	.config(['$routeProvider', function($routeProvider) {
 		$routeProvider.when("/", {

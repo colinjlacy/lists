@@ -21,6 +21,7 @@
 	<script src="app/app.js"></script>
 	<script src="components/angular-route.js"></script>
 	<script src="components/google-plus-signin.js"></script>
+	<script src="components/ui-bootstrap-tpls-0.11.0.min.js"></script>
 	<script src="services/listService.js"></script>
 	<script src="controllers/listCtrl.js"></script>
 	<script src="controllers/viewCtrl.js"></script>
@@ -31,7 +32,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<h1 class="text-center">Listify</h1>
+				<h1 class="text-center">Listache</h1>
 				<p class="text-center">A simple app for making and sharing lists, built in AngularJS and PHP.</p>
 				<div ng-hide="loginButton == true">
 					<hr/>
@@ -43,6 +44,8 @@
 </div>
 <ng-view></ng-view>
 
-
+<script src="vendor/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
