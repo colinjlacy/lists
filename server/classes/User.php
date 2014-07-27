@@ -41,7 +41,7 @@ class User extends Data {
                 if ($add_shared_lists) {
 
                     // you're done here
-                    return true;
+                    return $add_shared_lists;
 
                 } else {
 
@@ -69,7 +69,7 @@ class User extends Data {
 
     private function get_shared_lists($email, $id) {
 
-        $select = "SELECT * FROM Shared WHERE email = '$email'";
+        $select = "SELECT * FROM Sharing WHERE email = '$email'";
 
         $get_shared = $this->select($select);
 
@@ -78,6 +78,8 @@ class User extends Data {
             return "Something went terribly wrong";
 
         } else {
+
+//            return $get_shared;
 
             $sharedListArray = [];
 
@@ -97,13 +99,13 @@ class User extends Data {
 
             if ($insert_shared) {
 
-                $delete = "DELETE FROM Shared WHERE email = '$email'";
+                $delete = "DELETE FROM Sharing WHERE email = '$email'";
 
                 $deleted_holding = $this->select($delete);
 
                 if ($deleted_holding) {
 
-                    return true;
+                    return "All lists transferred, all holding rows deleted.";
 
                 } else {
 

@@ -17,7 +17,7 @@ $result = [];
 
 foreach($recipients as $recipient) {
 
-    $user_test = $Share->user_exists($recipient);
+    $user_test = $Share->user_exists($recipient['email']);
 
     if ($user_test) {
 
@@ -25,13 +25,13 @@ foreach($recipients as $recipient) {
 
         $shared_lists = $user_test['edit_access'];
 
-        $Share->add_to_share_list($recipient, $shared_lists, $list_id);
+        $Share->add_to_share_list($recipient['email'], $shared_lists, $list_id);
 
         array_push($result, "share access granted");
 
     } else {
 
-        $holding = $Share->set_holding($recipient, $list_id, $creator_id, $creator_display);
+        $holding = $Share->set_holding($recipient['email'], $list_id, $creator_id, $creator_display);
 
         array_push($result, $holding);
 

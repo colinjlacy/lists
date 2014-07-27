@@ -18,6 +18,8 @@ angular.module("boomLists")
 
 
 				$rootScope.google_id = id;
+				$rootScope.email = email;
+				$rootScope.displayName = displayName;
 
 				$http({
 					url: "server/set_user.php",
@@ -39,7 +41,7 @@ angular.module("boomLists")
 								$scope.lists = response;
 								console.log(response);
 
-								if(response.owned && response.owned.length > 0) {
+								if((response.owned && response.owned.length > 0) || (response.shared && response.shared.length > 0)) {
 									$scope.hasLists = true;
 								}
 

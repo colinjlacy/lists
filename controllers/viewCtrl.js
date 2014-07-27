@@ -154,7 +154,7 @@ angular.module("boomLists")
 			if (!($scope.listRecipients && $scope.listRecipients.length > 0)) {
 				$scope.listRecipients = [];
 			}
-			$scope.listRecipients.push($scope.recipient);
+			$scope.listRecipients.push($scope.emailRecipient);
 			$scope.recipient = undefined;
 		};
 
@@ -162,7 +162,7 @@ angular.module("boomLists")
 			if (!($scope.listShare && $scope.listShare.length > 0)) {
 				$scope.listShare = [];
 			}
-			$scope.listShare.push($scope.recipient.email);
+			$scope.listShare.push($scope.shareRecipient);
 			$scope.recipient = undefined;
 		};
 
@@ -171,8 +171,8 @@ angular.module("boomLists")
 				list_id: $routeParams.id,
 				message: $scope.shareMessage,
 				listShare: $scope.listShare,
-				creator_id: $rootScope.data.user.id,
-				creator_display: $rootScope.data.user.displayName
+				creator_id: $rootScope.google_id,
+				creator_display: $rootScope.displayName
 			};
 
 			$http({

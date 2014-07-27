@@ -27,54 +27,12 @@
                 <div class="col-sm-12">
                     <a class="btn btn-success fa fa-floppy-o" ng-click="saveEditedList()"></a>
                     <a class="btn btn-default fa fa-pencil-square-o" ng-click="editList(activeList.id)"></a>
-                    <a class="btn btn-default fa fa-calendar" ng-click="showCalendarForm()"></a>
                     <a class="btn btn-default fa fa-envelope-o" ng-click="showEmailForm()"></a>
                     <a class="btn btn-default fa fa-users" ng-click="showShareForm()"></a>
-                    <button class="btn btn-default pull-right" ng-click="deleteList(activeList.id)">Delete List</button>
+                    <button class="btn btn-default pull-right" ng-click="deleteList(activeList.id)"><span class="fa fa-trash-o"></span> Delete List</button>
                 </div>
             </div>
         </div>
-
-
-	    <div class="col-sm-8 col-sm-push-2" ng-show="calendarForm">
-		    <button class="btn btn-default" ng-click="viewReset()">Back</button>
-		    <div class="well">
-			    <h2>Add this list to your Google Calendar</h2>
-
-			    <label class="control-label">Pick a Date (e.g. a due-date or deadline)
-				    <div class="input-group">
-					    <input type="text" class="form-control" datepicker-popup="{{format}}" ng-model="listDate" is-open="opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" />
-					            <span class="input-group-btn">
-						            <button type="button" class="btn btn-default" ng-click="open($event)"><i class="glyphicon glyphicon-calendar"></i></button>
-					            </span>
-				    </div>
-			    </label>
-
-			    <label class="control-label">Select a Calendar</label>
-			    <select ng-model="listCalendar" ng-options="cal.summary for cal in cals.calsList" class="form-control"></select>
-
-			    <label class="control-label">Want to include a note?</label>
-			    <textarea class="form-control" ng-model="listMessage" rows="10"></textarea>
-
-			    <label class="control-label">Want to invite some friends?
-				    <div class="input-group">
-					    <input type="text" ng-model="attendee" typeahead='contact as contact.title + ", " + contact.email for contact in data.contacts | filter: $viewValue | limitTo:8' class="form-control">
-					    <span class="input-group-btn">
-					        <button class="btn btn-default" type="button" ng-click="addToCalAttendees()">Add!</button>
-					    </span>
-				    </div><!-- /input-group -->
-			    </label>
-
-			    <h4 ng-show="listAttendees">Attendees</h4>
-			    <ul>
-				    <li ng-repeat="attendee in listAttendees">
-					    {{attendee.title}}
-				    </li>
-			    </ul>
-
-			    <button class="btn btn-success" ng-click="addToCalendar()">Add it!</button>
-		    </div>
-	    </div>
 
 
 	    <div class="col-sm-8 col-sm-push-2" ng-show="emailForm">
@@ -84,7 +42,7 @@
 
 			    <label class="control-label">To whom would you like to send it?
 				    <div class="input-group">
-					    <input type="text" ng-model="recipient" typeahead='contact as contact.title + ", " + contact.email for contact in contacts | filter: $viewValue | limitTo:8' class="form-control">
+					    <input type="text" ng-model="emailRecipient" typeahead='contact as contact.title + ", " + contact.email for contact in contacts | filter: $viewValue | limitTo:8' class="form-control">
 					    <span class="input-group-btn">
 					        <button class="btn btn-default" type="button" ng-click="addToRecipients()">Add!</button>
 					    </span>
@@ -114,7 +72,7 @@
 
 			    <label class="control-label">With whom would you like to share it?
 				    <div class="input-group">
-					    <input type="text" ng-model="recipient" typeahead='contact as contact.title + ", " + contact.email for contact in data.contacts | filter: $viewValue | limitTo:8' class="form-control">
+					    <input type="text" ng-model="shareRecipient" typeahead='contact as contact.title + ", " + contact.email for contact in contacts | filter: $viewValue | limitTo:8' class="form-control">
 					    <span class="input-group-btn">
 					        <button class="btn btn-default" type="button" ng-click="addToShare()">Add!</button>
 					    </span>
