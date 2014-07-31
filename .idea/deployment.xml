@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="PublishConfigData" serverName="Lists" />
+=======
+  <component name="PublishConfigData" serverName="LocalHost">
+    <serverData>
+      <paths name="LocalHost">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="lists" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+>>>>>>> work731
 </project>
 
