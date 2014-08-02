@@ -12,9 +12,9 @@ namespace classes;
 class Data {
 
     private function set_concection() {
-        $db = "lists";
-        $usr = "root";
-        $psd = 'root';
+        $db = "jtestnet_lists";
+        $usr = "jtestnet_listUsr";
+        $psd = 'H)vnx4vs42I6';
         $hst = 'localhost';
 
         $con = mysqli_connect($hst, $usr, $psd, $db);
