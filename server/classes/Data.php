@@ -11,7 +11,7 @@ namespace classes;
 
 class Data {
 
-    private function set_concection() {
+    public function set_concection() {
         $db = "lists";
         $usr = "root";
         $psd = 'root';

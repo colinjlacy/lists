@@ -30,6 +30,7 @@ angular.module("boomLists")
 						displayName: displayName
 					}
 				}).success(function(userData) {
+                    console.log(userData);
 						$http({
 							url: "server/retrieve_lists.php",
 							method: "GET",
@@ -157,7 +158,7 @@ angular.module("boomLists")
                         $scope.lists.owned.push(add);
                         $scope.hasLists = true;
                         $scope.add = {};
-                        $location.path('#/lists/');
+                        $location.path('/');
                     } else {
                         $scope.add.error = data;
                     }

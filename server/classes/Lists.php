@@ -279,7 +279,7 @@ class Lists extends Data {
         foreach($items as $item) {
 
             // escape any gamebreaking characters
-            $name = mysql_real_escape_string($item['name']);
+            $name = $item['name'];
             $done = isset($item['done']) ? $item['done'] : false;
 
             // append item info to the query, along with the relational grocery_list id
