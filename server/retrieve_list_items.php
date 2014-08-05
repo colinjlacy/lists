@@ -7,6 +7,9 @@ $list_data = $_GET['list_id'];
 
 $Lists = new \classes\Lists();
 
+$active_list = $Lists->simple_list_select($list_data);
 $items = $Lists->get_items($list_data);
 
-echo $items;
+$data = [$active_list, $items];
+
+print json_encode($data);

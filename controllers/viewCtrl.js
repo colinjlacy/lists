@@ -11,7 +11,8 @@ angular.module("boomLists")
             })
                 .success(function(data) {
 		            console.log(data);
-                    $scope.items = data;
+                    $rootScope.activeList = data[0];
+                    $scope.items = JSON.parse(data[1]);
                 })
                 .error(function(error) {
                     $scope.viewError = error;
@@ -182,6 +183,7 @@ angular.module("boomLists")
 			})
 				.success(function(data) {
 					console.log("it worked: " + data);
+                    $location.path('/');
 				})
 		};
 
@@ -263,6 +265,7 @@ angular.module("boomLists")
 						type: "alert-success",
 						message: "This list has been emailed!  Nicely done!"
 					}
+                    $location.path('/');
 				});
 		};
 

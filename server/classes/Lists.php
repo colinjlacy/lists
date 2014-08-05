@@ -95,7 +95,7 @@ class Lists extends Data {
 
     }
 
-    private function simple_list_select($id) {
+    public function simple_list_select($id) {
 
         // write the database search inquiry
         $select = "SELECT * FROM Lists WHERE id = '$id'";
