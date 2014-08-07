@@ -39,11 +39,11 @@ angular.module("boomLists")
 							}
 						})
 							.success(function(response) {
-								$scope.lists = response;
+								$rootScope.lists = response;
 								console.log(response);
 
 								if((response.owned && response.owned.length > 0) || (response.shared && response.shared.length > 0)) {
-									$scope.hasLists = true;
+									$rootScope.hasLists = true;
 								}
 
 							})
@@ -99,7 +99,6 @@ angular.module("boomLists")
 		});
 
 		$scope.viewList = function(list) {
-			$rootScope.activeList = list;
 			$location.path('/' + list.id);
 		};
 
@@ -115,9 +114,9 @@ angular.module("boomLists")
                 }
             })
                 .success(function(data) {
-                    $scope.lists.owned.splice(index, 1);
-                    if ($scope.lists.owned.length == 0) {
-                        $scope.hasLists = false;
+                    $rootScope.lists.owned.splice(index, 1);
+                    if ($rootScope.lists.owned.length == 0) {
+                        $rootScope.hasLists = false;
                     }
                 });
         };
@@ -155,8 +154,8 @@ angular.module("boomLists")
                     if(!isNaN(data)) {
                         $scope.add.error = null;
                         add.id = data;
-                        $scope.lists.owned.push(add);
-                        $scope.hasLists = true;
+                        $rootScope.lists.owned.push(add);
+                        $rootScope.hasLists = true;
                         $scope.add = {};
                         $location.path('/');
                     } else {

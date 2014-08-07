@@ -3,12 +3,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8 col-sm-push-2">
-					<div class="alert alert-warning">
+					<div class="alert alert-info">
 						<h3 class="no-top">Look at that!</h3>
 						<p id="noLists" class="lead">
 							It looks lke you don't have any lists! Click the button below to do something about that and add your first list!
 						</p>
-						<a class="btn btn-warning" href="#/add">Add New List</a>
+						<a class="btn btn-primary" href="#/add">Add New List</a>
 					</div>
 				</div>
 			</div>
@@ -28,7 +28,7 @@
 				<div class="col-sm-8 col-sm-push-2">
 					<!--<h3>Your Lists</h3>-->
 
-					<ul class="nav nav-tabs lead">
+					<ul class="nav nav-tabs lead" ng-show="lists.owned && lists.shared">
 						<li class="active"><a data-target="#owned-lists" role="tab" data-toggle="tab">Your Lists</a></li>
 						<li class=""><a data-target="#shared-lists" role="tab" data-toggle="tab">Shared with You</a></li>
 					</ul>
@@ -49,7 +49,7 @@
 				</div>
 			</div>
 			<div class="row  tab-content">
-				<div id="owned-lists" class="col-sm-12 tab-pane active">
+				<div id="owned-lists" class="col-sm-12 tab-pane" ng-class="{active: lists.owned}">
 					<div class="row" ng-repeat="list in lists.owned track by $index">
 						<div class="col-sm-8 col-sm-push-2">
 
@@ -66,7 +66,7 @@
 						</div>
 					</div>
 				</div>
-				<div id="shared-lists" class="col-sm-12 tab-pane">
+				<div id="shared-lists" class="col-sm-12 tab-pane" ng-class="{active: !lists.owned && lists.shared}">
 					<div class="row" ng-repeat="list in lists.shared track by $index">
 						<div class="col-sm-8 col-sm-push-2">
 							<hr>

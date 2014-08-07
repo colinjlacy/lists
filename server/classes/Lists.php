@@ -106,7 +106,7 @@ class Lists extends Data {
         if (!$result) {
 
             // if no connection made, let someone know
-            return "Could not access list bia simple select";
+            return "Could not access list via simple select";
 
         } else {
 

@@ -85,6 +85,15 @@ angular.module("boomLists")
                 }
             })
                 .success(function(data) {
+                    for (var i = 0; i < $rootScope.lists.owned.length; i++) {
+                        if (id == $rootScope.lists.owned[i].id) {
+                            $rootScope.lists.owned.splice(i, 1);
+                            break;
+                        }
+                    }
+                    if ($rootScope.lists.owned.length == 0) {
+                        $rootScope.hasLists = false;
+                    }
                     $location.path('/');
                 });
         };
