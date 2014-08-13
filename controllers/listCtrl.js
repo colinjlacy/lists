@@ -1,5 +1,5 @@
 angular.module("boomLists")
-    .controller("listCtrl", function($scope, $rootScope, $http, $location) {
+    .controller("listCtrl", function($scope, $rootScope, $http, $location, messages) {
 
 		// on sucessful login
 		$scope.$on('event:google-plus-signin-success', function (event, authResult) {
@@ -102,7 +102,7 @@ angular.module("boomLists")
 			$location.path('/' + list.id);
 		};
 
-        $scope.deleteList = function(id, index) {
+        $scope.deleteList = function(id, index, title) {
             var url = 'server/delete_list.php';
 
             $http({
@@ -115,6 +115,7 @@ angular.module("boomLists")
             })
                 .success(function(data) {
                     $rootScope.lists.owned.splice(index, 1);
+                    messages.display("The list <strong>" + title + "</strong> has been deleted", "info");
                     if ($rootScope.lists.owned.length == 0) {
                         $rootScope.hasLists = false;
                     }
@@ -158,6 +159,7 @@ angular.module("boomLists")
                         $rootScope.hasLists = true;
                         $scope.add = {};
                         $location.path('/');
+                        messages.display("Your list <strong>" + add.title + "</strong> has been added!", "success");
                     } else {
                         $scope.add.error = data;
                     }

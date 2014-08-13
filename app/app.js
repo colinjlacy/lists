@@ -1,6 +1,7 @@
 angular.module('boomLists', [
 		'directive.g+signin',
 		'ngRoute',
+        'ngSanitize',
 		'ui.bootstrap'
 	])
 	.config(['$routeProvider', function($routeProvider) {

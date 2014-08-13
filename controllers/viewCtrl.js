@@ -1,5 +1,5 @@
 angular.module("boomLists")
-    .controller("viewCtrl", function($scope, $http, $routeParams, $rootScope, $location) {
+    .controller("viewCtrl", function($scope, $http, $routeParams, $rootScope, $location, messages) {
 
         var getList = function(id) {
             $http({
@@ -73,7 +73,7 @@ angular.module("boomLists")
 
 
 		// TODO: Pull this out into a service, and revise so that a message is displayed on the $rootScope
-        $scope.deleteList = function(id) {
+        $scope.deleteList = function(id, title) {
             var url = 'server/delete_list.php';
 
             $http({
@@ -94,6 +94,7 @@ angular.module("boomLists")
                     if ($rootScope.lists.owned.length == 0) {
                         $rootScope.hasLists = false;
                     }
+                    messages.display("Your list <strong>" + title + "</strong> has been deleted.", "info");
                     $location.path('/');
                 });
         };
@@ -120,7 +121,7 @@ angular.module("boomLists")
 				google_id: $rootScope.google_id,
 				list_id: $rootScope.activeList.id,
 				items: $scope.items
-			}
+			};
 
 			$http({
 				url: url,
@@ -129,10 +130,7 @@ angular.module("boomLists")
 			})
 				.success(function(returnedID) {
 					$location.path('/' + returnedID);
-					$rootScope.activeList.alert = {
-						type: "alert-success",
-						message: "This list has been updated!  Nicely done!"
-					}
+					messages.display("This list has been updated!  Nicely done!", "success");
 				});
 		};
 
@@ -196,63 +194,6 @@ angular.module("boomLists")
 				})
 		};
 
-		$scope.addToCalendar = function() {
-
-			var token = $scope.token;
-
-			var messageList;
-
-			for (var i = 0; i < $scope.items.length; i++) {
-				messageList += "<li>" + $scope.items[i].name + "</li>";
-			}
-
-			var message = $scope.listMessage + " <ul>" + messageList + "</ul><a href='" + $location.absUrl() + "'>View it online!</a>";
-
-			var attendees = [];
-
-			if ($scope.listAttendees) {
-				for (var i = 0; i < $scope.listAttendees.length; i++) {
-					attendees.push({email: $scope.listAttendees[i].email});
-				}
-			}
-
-			var calID = encodeURIComponent($scope.listCalendar.id);
-
-
-			// TODO: Add the link back to this list to the listMessage, so that people can access it from their calendars
-			var calendarInput = {
-				start: {
-					date: $scope.listDate.toISOString().slice(0,10)
-				},
-				end: {
-					date: $scope.listDate.toISOString().slice(0,10)
-				},
-				summary: $rootScope.activeList.title,
-				description: message,
-				attendees: attendees
-			};
-
-			$http({
-				url: "https://www.googleapis.com/calendar/v3/calendars/" + calID + "/events?sendNotifications=true&key=185024779579-go9t2i4b44oaffv6as49ijotubekkcql.apps.googleusercontent.com&access_token=" + token,
-				method: "POST",
-				data: calendarInput
-			})
-				.success(function() {
-					$scope.calendarForm = false;
-					$rootScope.activeList.alert = {
-						type: "alert-success",
-						message: "This list has been added to your calendar!  Nicely done!"
-					}
-				})
-				.error(function(error) {
-					$rootScope.activeList.alert = {
-						type: "alert-danger",
-						message: "There was an error: " + error
-					}
-				})
-
-		};
-
 		$scope.sendEmail = function() {
 
 
@@ -282,7 +223,6 @@ angular.module("boomLists")
 			$scope.calendarForm = false;
 			$scope.emailForm = false;
 			$scope.shareForm = false;
-		}
-
+		};
 
     });

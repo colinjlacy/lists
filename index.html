@@ -9,20 +9,25 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
 	<link rel="stylesheet" href="css/styles.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 	<style>
 		.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 	</style>
 
-	<script src="https://apis.google.com/js/client.js?onload=OnLoadCallback"></script>
+	<!--<script src="https://apis.google.com/js/client.js?onload=OnLoadCallback"></script>-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!--TODO: Re-develop everythign using the Google JS client library-->
+    <script src="vendor/jquery.js"></script>
 	<script src="app/angular.js"></script>
 	<script src="app/app.js"></script>
 	<script src="components/angular-route.js"></script>
+	<script src="components/angular-sanitize.js"></script>
 	<script src="components/google-plus-signin.js"></script>
 	<script src="components/ui-bootstrap-tpls-0.11.0.min.js"></script>
 	<script src="services/listService.js"></script>
+	<script src="modules/message-service.js"></script>
 	<script src="controllers/listCtrl.js"></script>
 	<script src="controllers/viewCtrl.js"></script>
 
@@ -42,9 +47,19 @@
 		</div>
 	</div>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div id="message-container" class="col-sm-8 col-sm-push-2">
+            <div class="alert alert-{{message.type}}">
+                <p ng-bind-html="message.string"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <ng-view></ng-view>
 
-<script src="vendor/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 </body>
