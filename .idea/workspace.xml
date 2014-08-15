@@ -23,235 +23,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <file leaf-file-name="viewList.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/viewList.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="21" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1575">
-=======
-      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/classes/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1890">
-              <folding>
-                <marker date="1407013652000" expanded="true" signature="334:382" placeholder="SELECT * FRO..Users..." />
-                <marker date="1407013652000" expanded="true" signature="783:880" placeholder="INSERT INTO ..." />
-                <marker date="1407013652000" expanded="true" signature="1887:1931" placeholder="SELECT * FRO..Sharing..." />
-                <marker date="1407013652000" expanded="true" signature="2494:2589" placeholder="UPDATE Users..." />
-                <marker date="1407013652000" expanded="true" signature="2709:2751" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/contacts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
->>>>>>> Stashed changes
               <folding />
-=======
-      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/classes/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1890">
-              <folding>
-                <marker date="1407013652000" expanded="true" signature="334:382" placeholder="SELECT * FRO..Users..." />
-                <marker date="1407013652000" expanded="true" signature="783:880" placeholder="INSERT INTO ..." />
-                <marker date="1407013652000" expanded="true" signature="1887:1931" placeholder="SELECT * FRO..Sharing..." />
-                <marker date="1407013652000" expanded="true" signature="2494:2589" placeholder="UPDATE Users..." />
-                <marker date="1407013652000" expanded="true" signature="2709:2751" placeholder="DELETE FROM ..." />
-              </folding>
->>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <file leaf-file-name="listCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/listCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="148" column="25" selection-start="4578" selection-end="4578" vertical-scroll-proportion="0.0" vertical-offset="1873" max-vertical-offset="2685">
-=======
-      <file leaf-file-name="contacts.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/contacts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
->>>>>>> Stashed changes
-=======
-      <file leaf-file-name="create_list.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/create_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
->>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <file leaf-file-name="viewCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/viewCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="195" column="0" selection-start="5763" selection-end="5763" vertical-scroll-proportion="0.0" vertical-offset="2925" max-vertical-offset="3510">
-=======
-      <file leaf-file-name="create_list.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/create_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
->>>>>>> Stashed changes
-=======
-      <file leaf-file-name="send_mail.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/send_mail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="900">
->>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <file leaf-file-name="angular-sanitize.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/angular-sanitize.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="646" column="27" selection-start="24212" selection-end="24212" vertical-scroll-proportion="0.0" vertical-offset="8908" max-vertical-offset="9780">
-=======
-      <file leaf-file-name="send_mail.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/send_mail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="900">
->>>>>>> Stashed changes
-=======
-      <file leaf-file-name="delete_list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/delete_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
->>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
       <file leaf-file-name="allLists.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/allLists.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="62" column="130" selection-start="2074" selection-end="2074" vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1395">
-=======
-      <file leaf-file-name="delete_list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/delete_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
->>>>>>> Stashed changes
-=======
-            <state line="36" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="735">
->>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
       <file leaf-file-name="animate.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/animate.css">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
             <state line="16" column="20" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="46950">
-=======
-            <state line="36" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="735">
->>>>>>> Stashed changes
-=======
-      <file leaf-file-name="retrieve_lists.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/retrieve_lists.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="29" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
->>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="93" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1485">
-=======
-      <file leaf-file-name="retrieve_lists.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/retrieve_lists.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="29" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
->>>>>>> Stashed changes
-=======
-      <file leaf-file-name="edit_list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/edit_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="google_logout.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/google_logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
->>>>>>> Stashed changes
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
       <file leaf-file-name="message-service.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/message-service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="0" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-=======
-      <file leaf-file-name="edit_list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/edit_list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="google_logout.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/google_logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
->>>>>>> Stashed changes
-=======
-      <file leaf-file-name="retrieve_list_items.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/retrieve_list_items.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
->>>>>>> Stashed changes
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="5" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-=======
-      <file leaf-file-name="retrieve_list_items.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/retrieve_list_items.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
->>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -260,12 +98,8 @@
       <file leaf-file-name="Data.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/classes/Data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="9" selection-start="923" selection-end="923" vertical-scroll-proportion="1.0335195" vertical-offset="60" max-vertical-offset="1335">
-              <folding>
-                <marker date="1408110884000" expanded="true" signature="699:971" placeholder="..." />
-                <marker date="1408110884000" expanded="true" signature="1099:1404" placeholder="..." />
-                <marker date="1408110884000" expanded="true" signature="1532:1804" placeholder="..." />
-              </folding>
+            <state line="19" column="2" selection-start="298" selection-end="298" vertical-scroll-proportion="0.2793296" vertical-offset="60" max-vertical-offset="1275">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -281,20 +115,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/services/listService.js" />
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/server/retrieve_lists.php" />
         <option value="$PROJECT_DIR$/server/share_list.php" />
         <option value="$PROJECT_DIR$/server/classes/User.php" />
-=======
-=======
->>>>>>> Stashed changes
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/app.js" />
-        <option value="$PROJECT_DIR$/controllers/listCtrl.js" />
-        <option value="$PROJECT_DIR$/server/share_list.php" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
->>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/partials/viewList.html" />
         <option value="$PROJECT_DIR$/server/set_user.php" />
         <option value="$PROJECT_DIR$/server/create_list.php" />
@@ -311,27 +134,14 @@
         <option value="$PROJECT_DIR$/modules/message-service.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/server/classes/Data.php" />
-        <option value="$PROJECT_DIR$/server/classes/Share.php" />
-        <option value="$PROJECT_DIR$/server/classes/User.php" />
-        <option value="$PROJECT_DIR$/server/retrieve_lists.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="986" />
-=======
-=======
->>>>>>> Stashed changes
-    <option name="x" value="59" />
-    <option name="y" value="70" />
-    <option name="width" value="1440" />
-    <option name="height" value="820" />
->>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -401,8 +211,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
               <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -491,10 +299,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -520,8 +324,6 @@
     </key>
   </component>
   <component name="RunManager">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -529,10 +331,6 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
@@ -555,8 +353,6 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <frame x="0" y="22" width="1920" height="986" extended-state="6" />
     <editor active="false" />
     <layout>
@@ -566,28 +362,6 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11821086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
-    <frame x="59" y="70" width="1440" height="820" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36813188" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18383405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> Stashed changes
-=======
-    <frame x="59" y="70" width="1440" height="820" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36813188" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18383405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> Stashed changes
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -596,15 +370,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< Updated upstream
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -629,8 +396,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/server/classes/Data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="12" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1230" />
@@ -663,10 +428,6 @@
         <state line="13" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="390" />
       </provider>
     </entry>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     <entry file="file://$PROJECT_DIR$/services/listService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="25" selection-start="39" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="165" />
@@ -816,127 +577,26 @@
         <state line="6" column="14" selection-start="255" selection-end="255" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="705" />
       </provider>
     </entry>
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/partials/addList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="20" selection-start="845" selection-end="845" vertical-scroll-proportion="0.3761062" vertical-offset="60" max-vertical-offset="855" />
-=======
-    <entry file="file://$PROJECT_DIR$/services/listService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="39" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/listCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="61" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="2625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="137865" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/classes/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="-0.2" vertical-offset="455" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/viewList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.021428572" vertical-offset="105" max-vertical-offset="1635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.4" vertical-offset="140" max-vertical-offset="840">
-          <folding />
-        </state>
->>>>>>> Stashed changes
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/delete_list.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
         <state line="25" column="1" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="465">
-=======
-        <state line="11" column="41" selection-start="377" selection-end="377" vertical-scroll-proportion="0.021428572" vertical-offset="150" max-vertical-offset="4245">
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/services/listService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="25" selection-start="39" selection-end="50" vertical-scroll-proportion="0.029821074" vertical-offset="0" max-vertical-offset="503" />
       </provider>
     </entry>
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="0" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1485">
-=======
-    <entry file="file://$PROJECT_DIR$/services/listService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="39" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/listCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="61" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="2625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="137865" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/classes/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="-0.2" vertical-offset="455" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/viewList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.021428572" vertical-offset="105" max-vertical-offset="1635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.4" vertical-offset="140" max-vertical-offset="840">
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
@@ -944,111 +604,17 @@
     <entry file="file://$PROJECT_DIR$/partials/viewList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="21" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1575">
-=======
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state line="20" column="6" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1455">
-=======
-        <state line="11" column="41" selection-start="377" selection-end="377" vertical-scroll-proportion="0.021428572" vertical-offset="150" max-vertical-offset="4245">
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/server/classes/Lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4680">
-          <folding>
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Lists..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Users..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Lists..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT 1 FRO..Lists..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..List_Items..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/classes/Share.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="28" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1485">
-          <folding>
-            <marker date="1407013652000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Users..." />
-            <marker date="1407013652000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1407013652000" expanded="true" signature="-1:-1" placeholder="UPDATE Users..." />
-=======
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/classes/Lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4680">
-          <folding>
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Lists..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Users..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Lists..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT 1 FRO..Lists..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..List_Items..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1406408141000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
->>>>>>> Stashed changes
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/server/contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
->>>>>>> Stashed changes
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="20" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="46950">
-=======
-    <entry file="file://$PROJECT_DIR$/server/delete_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
->>>>>>> Stashed changes
-=======
-    <entry file="file://$PROJECT_DIR$/server/classes/Share.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="28" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.0" vertical-offset="785" max-vertical-offset="1485">
-          <folding>
-            <marker date="1407013652000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Users..." />
-            <marker date="1407013652000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1407013652000" expanded="true" signature="-1:-1" placeholder="UPDATE Users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/angular.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340035" />
@@ -1057,22 +623,10 @@
     <entry file="file://$PROJECT_DIR$/components/angular-sanitize.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="646" column="27" selection-start="24212" selection-end="24212" vertical-scroll-proportion="0.0" vertical-offset="8908" max-vertical-offset="9780">
-=======
-    <entry file="file://$PROJECT_DIR$/server/edit_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
->>>>>>> Stashed changes
-=======
-    <entry file="file://$PROJECT_DIR$/server/delete_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="21" selection-start="88" selection-end="88" vertical-scroll-proportion="0.05541872" vertical-offset="0" max-vertical-offset="812" />
@@ -1081,155 +635,49 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="0" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1065">
-=======
-    <entry file="file://$PROJECT_DIR$/server/google_logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-=======
-    <entry file="file://$PROJECT_DIR$/server/edit_list.php">
-      <provider selected="true" editor-type-id="text-editor">
->>>>>>> Stashed changes
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/server/send_mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="900">
->>>>>>> Stashed changes
-=======
-    <entry file="file://$PROJECT_DIR$/server/google_logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
->>>>>>> Stashed changes
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/partials/allLists.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="130" selection-start="2074" selection-end="2074" vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="1395">
-=======
-    <entry file="file://$PROJECT_DIR$/server/set_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
->>>>>>> Stashed changes
-=======
-    <entry file="file://$PROJECT_DIR$/server/send_mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="900">
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/controllers/listCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="148" column="25" selection-start="4578" selection-end="4578" vertical-scroll-proportion="0.0" vertical-offset="1873" max-vertical-offset="2685">
-=======
-    <entry file="file://$PROJECT_DIR$/server/share_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="735">
->>>>>>> Stashed changes
-=======
-    <entry file="file://$PROJECT_DIR$/server/set_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/share_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="735">
->>>>>>> Stashed changes
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/controllers/viewCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="0" selection-start="5763" selection-end="5763" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3510">
-=======
-    <entry file="file://$PROJECT_DIR$/server/retrieve_lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
->>>>>>> Stashed changes
-=======
-    <entry file="file://$PROJECT_DIR$/server/retrieve_lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
->>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="5" selection-start="29" selection-end="29" vertical-scroll-proportion="0.02793296" vertical-offset="0" max-vertical-offset="537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/message-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding />
-=======
-    <entry file="file://$PROJECT_DIR$/server/classes/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-=======
-    <entry file="file://$PROJECT_DIR$/server/classes/User.php">
-      <provider selected="true" editor-type-id="text-editor">
->>>>>>> Stashed changes
-        <state line="19" column="39" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1890">
-          <folding>
-            <marker date="1407013652000" expanded="true" signature="334:382" placeholder="SELECT * FRO..Users..." />
-            <marker date="1407013652000" expanded="true" signature="783:880" placeholder="INSERT INTO ..." />
-            <marker date="1407013652000" expanded="true" signature="1887:1931" placeholder="SELECT * FRO..Sharing..." />
-            <marker date="1407013652000" expanded="true" signature="2494:2589" placeholder="UPDATE Users..." />
-            <marker date="1407013652000" expanded="true" signature="2709:2751" placeholder="DELETE FROM ..." />
-          </folding>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/retrieve_list_items.php">
+    <entry file="file://$PROJECT_DIR$/server/classes/Data.php">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <state line="1" column="5" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-=======
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
->>>>>>> Stashed changes
-=======
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
->>>>>>> Stashed changes
+        <state line="19" column="2" selection-start="298" selection-end="298" vertical-scroll-proportion="0.2793296" vertical-offset="60" max-vertical-offset="1275">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/create_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <state line="46" column="9" selection-start="923" selection-end="923" vertical-scroll-proportion="1.0335195" vertical-offset="30" max-vertical-offset="1335">
-          <folding>
-            <marker date="1408110884000" expanded="true" signature="699:971" placeholder="..." />
-            <marker date="1408110884000" expanded="true" signature="1099:1404" placeholder="..." />
-            <marker date="1408110884000" expanded="true" signature="1532:1804" placeholder="..." />
-          </folding>
-=======
-=======
->>>>>>> Stashed changes
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <folding />
->>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
