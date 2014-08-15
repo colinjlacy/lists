@@ -12,10 +12,10 @@ $owned = $Lists->get_lists($list_data);
 
 $shared = $Lists->get_shared_lists($list_data);
 
-$lists = [
+$lists = array(
     'owned' => $owned,
     'shared' => $shared
-];
+);
 
 //echo json_encode($lists);
 print_r(json_encode($lists));

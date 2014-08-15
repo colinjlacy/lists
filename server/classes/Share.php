@@ -60,7 +60,7 @@ class Share extends Data {
 
         } else {
 
-            $lists = [];
+            $lists = array();
 
         }
 

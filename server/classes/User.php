@@ -81,7 +81,7 @@ class User extends Data {
 
 //            return $get_shared;
 
-            $sharedListArray = [];
+            $sharedListArray = array();
 
             // loop through each row in the returned object
             while($row = $get_shared -> fetch_assoc()) {

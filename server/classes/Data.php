@@ -12,6 +12,13 @@ namespace classes;
 class Data {
 
     public function set_concection() {
+/*
+        $db = "jtestnet_lists";
+        $usr = "jtestnet_listMan";
+        $psd = 'g-G,ZDi_le(R';
+        $hst = 'localhost';
+*/
+
         $db = "lists";
         $usr = "root";
         $psd = 'root';
