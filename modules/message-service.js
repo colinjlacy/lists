@@ -16,6 +16,9 @@ angular.module("boomLists")
                        messageContainer.slideUp(400);
                    }, 1000)
                }, 1500);
+           },
+           remove: function() {
+               $('#message-container').addClass('invisible').slideUp(400);
            }
        }
     });

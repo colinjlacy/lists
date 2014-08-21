@@ -1,6 +1,8 @@
 angular.module("boomLists")
     .controller("listCtrl", function($scope, $rootScope, $http, $location, messages) {
 
+        $scope.loginButton = false;
+
 		// on sucessful login
 		$scope.$on('event:google-plus-signin-success', function (event, authResult) {
 
