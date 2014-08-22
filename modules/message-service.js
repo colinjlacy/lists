@@ -14,7 +14,8 @@ angular.module("boomLists")
                    messageContainer.addClass('animated fadeOut');
                    setTimeout(function () {
                        messageContainer.slideUp(400);
-                   }, 1000)
+                   }, 1000);
+                   $rootScope.message = {};
                }, 1500);
            },
            remove: function() {

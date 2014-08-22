@@ -92,7 +92,7 @@ angular.module("boomLists")
                         }
                     }
                     if ($rootScope.lists.owned.length == 0) {
-                        $rootScope.hasLists = false;
+                        $rootScope.hasLists = 2;
                     }
                     messages.display("Your list <strong>" + title + "</strong> has been deleted.", "info");
                     $location.path('/');

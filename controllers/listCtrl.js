@@ -1,7 +1,11 @@
 angular.module("boomLists")
     .controller("listCtrl", function($scope, $rootScope, $http, $location, messages) {
 
-        $scope.loginButton = false;
+        // Here's an overview of the loginButton functionality:
+        // 0 = initial state, testing to see if we can get in
+        // 1 = can't get in, need loginButton
+        // 2 = got in, no loginButton needed
+        $scope.loginButton;
 
 		// on sucessful login
 		$scope.$on('event:google-plus-signin-success', function (event, authResult) {
@@ -9,7 +13,9 @@ angular.module("boomLists")
 			// get the access token
 			$scope.token = (authResult.access_token);
 
-			$scope.loginButton = true;
+            // Next option means that there's no need for a loginButton to show, since we were granted access and life is good.
+			$scope.loginButton = 2;
+            console.log($scope.loginButton);
 
 			// make the initial AJAX call to retrieve the user account information
 			$http.get('https://www.googleapis.com/plus/v1/people/me?access_token=' + $scope.token).success(function(data) {
@@ -45,7 +51,12 @@ angular.module("boomLists")
 								console.log(response);
 
 								if((response.owned && response.owned.length > 0) || (response.shared && response.shared.length > 0)) {
-									$rootScope.hasLists = true;
+                                    // Here's an overview of the hasLists functionality:
+                                    // 1 = hasLists, no need to show the holding message
+                                    // 2 = no lists found, show the holding message
+                                    // Note that there's no intial state, just specific values.  I only need two options;
+                                    // however I can't have true or false, since undefined can be interpreted as false.
+                                    $rootScope.hasLists = 1;
 								}
 
 							})
@@ -96,7 +107,10 @@ angular.module("boomLists")
 			// User has not authorized the G+ App!
 			console.log('Not signed into Google Plus.');
 
-			$scope.loginButton = false;
+            // Third option means that we were not granted access, and need to get in!
+            $scope.$apply(function(){
+                $scope.loginButton = 1;
+            });
 			console.log($scope.loginButton);
 		});
 
@@ -119,7 +133,7 @@ angular.module("boomLists")
                     $rootScope.lists.owned.splice(index, 1);
                     messages.display("The list <strong>" + title + "</strong> has been deleted", "info");
                     if ($rootScope.lists.owned.length == 0) {
-                        $rootScope.hasLists = false;
+                        $rootScope.hasLists = 2;
                     }
                 });
         };
@@ -158,7 +172,7 @@ angular.module("boomLists")
                         $scope.add.error = null;
                         add.id = data;
                         $rootScope.lists.owned.push(add);
-                        $rootScope.hasLists = true;
+                        $rootScope.hasLists = 1;
                         $scope.add = {};
                         $location.path('/');
                         messages.display("Your list <strong>" + add.title + "</strong> has been added!", "success");
