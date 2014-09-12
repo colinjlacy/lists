@@ -40,11 +40,6 @@
 				<h1 class="text-center">Listache</h1>
 				<p class="text-center">An app for making and sharing lists, built with Bootstrap 3, AngularJS, and PHP.</p>
 				<!--<div>-->
-				<div ng-show="loginButton == 1">
-					<hr/>
-                    <!--NOTE: this login button doesn't show up in Firefox. That's a problem!-->
-					<google-plus-signin clientid="185024779579-go9t2i4b44oaffv6as49ijotubekkcql.apps.googleusercontent.com"></google-plus-signin>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -59,8 +54,21 @@
         </div>
     </div>
 </div>
+<div class="text-center" ng-show="loginButton == 0">
+	<hr>
+	<img src="img/login-loader.gif" height="36" width="36"/>
+</div>
+<div class="text-center" ng-show="loginButton == 1">
+	<hr/>
+	<!--NOTE: this login button doesn't show up in Firefox. That's a problem!-->
+	<google-plus-signin clientid="185024779579-go9t2i4b44oaffv6as49ijotubekkcql.apps.googleusercontent.com"></google-plus-signin>
+</div>
 
-<ng-view ng-show="loginButton == 2"></ng-view>
+<div ng-show="loginButton == 2">
+
+	<ng-view></ng-view>
+
+</div>
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>

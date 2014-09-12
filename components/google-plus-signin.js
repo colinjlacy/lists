@@ -24,7 +24,8 @@ angular.module('directive.g+signin', []).
 					callback: 'signinCallback',
 					cookiepolicy: 'single_host_origin',
 					requestvisibleactions: 'http://schemas.google.com/AddActivity',
-					scope: 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/contacts.readonly https://www.googleapis.com/auth/gmail.compose',
+//					scope: 'https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/contacts.readonly',
+					scope: 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/contacts.readonly',
 					width: 'wide'
 				};
 
