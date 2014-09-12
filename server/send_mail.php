@@ -14,11 +14,11 @@ $message_list = "<ul>";
 $plain_message = " ";
 
 foreach($items as $item) {
-    $message_list .= "<li>".$item['name']."</li>";
+    $message_list .= "<li>".$item['title']."</li>";
 }
 
 foreach($item as $item) {
-    $plain_message .= ", ".$item['name'];
+    $plain_message .= ", ".$item['title'];
 }
 
 $message_list .= "</ul>";
